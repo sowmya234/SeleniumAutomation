@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="NegativeLogins" verbose="1" >
+  <test name="InvalidPasswordTest" >
+    <parameter name="username" value="tomsmith"></parameter>
+    <parameter name="password" value="Invalidpassword"></parameter> 
+    <parameter name="ErrorMessage" value="Your password is invalid!"></parameter>
+    <classes>
+       <class name="com.herokuapp.theinternet.ParameterTests" />
+    </classes>
+  </test>
+ 
+  <test name="InvalidUsernameTest">
+    <parameter name="username" value="Invalidusername"></parameter>
+    <parameter name="password" value="SuperSecretPassword!"></parameter> 
+    <parameter name="ErrorMessage" value="Your username is invalid!"></parameter>
+    <classes>
+      <class name="com.herokuapp.theinternet.ParameterTests"/>
+    </classes>
+  </test>
+</suite>

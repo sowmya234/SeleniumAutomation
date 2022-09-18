@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test1(failed)" verbose="0">
+    <classes>
+      <class name="Academy.E2EProject.HomePage">
+        <methods>
+          <include name="diverstart"/>
+          <include name="basePageNavigator" invocation-numbers="1 2"/>
+          <include name="driverclose"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.HomePage -->
+      <class name="Academy.E2EProject.PracticePage">
+        <methods>
+          <include name="RahulPracticepageNavigation"/>
+          <include name="diverstart"/>
+          <include name="driverclose"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.PracticePage -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)" verbose="0">
+    <classes>
+      <class name="Academy.E2EProject.HomePage">
+        <methods>
+          <include name="diverstart"/>
+          <include name="basePageNavigator" invocation-numbers="1 2"/>
+          <include name="driverclose"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.HomePage -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" name="Test5(failed)" verbose="0">
+    <classes>
+      <class name="Academy.E2EProject.PracticePage">
+        <methods>
+          <include name="RahulPracticepageNavigation"/>
+          <include name="diverstart"/>
+          <include name="driverclose"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.PracticePage -->
+    </classes>
+  </test> <!-- Test5(failed) -->
+</suite> <!-- Failed suite [Suite] -->

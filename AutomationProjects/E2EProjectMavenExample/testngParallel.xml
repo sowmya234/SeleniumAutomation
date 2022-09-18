@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- below suite runs the tests in parallel order one by one-->
+<suite name="Suite2" parallel="tests">
+  <test name="Test1">
+    <classes>
+     <class name="Academy.E2EProject.base"/>
+      <class name="Academy.E2EProject.HomePage"/>
+    </classes>
+  </test> 
+
+<test name="Test2">
+<classes>
+ <class name="Academy.E2EProject.HomePage"/>
+</classes>
+</test>
+  
+  
+<test name="Test3">
+<classes>
+ <class name="Academy.E2EProject.RedbusCalender"/>
+</classes>
+</test>
+
+<test name="Test4">
+<classes>
+ <class name="Academy.E2EProject.AlertPraticePage"/>
+</classes>
+</test>
+
+<test name="Test5">
+<classes>
+ <class name="Academy.E2EProject.PracticePage"/>
+</classes>
+</test>
+
+</suite> 
+
+

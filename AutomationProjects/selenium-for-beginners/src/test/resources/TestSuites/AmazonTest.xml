@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="AmazonAction1TestSuite" verbose="1" >
+  
+ 
+  <test name="ActionTest1">
+      <!-- <groups>
+          <run>
+              <include name="SmokeTest"/>
+          </run>
+      </groups>-->
+  
+      <classes>
+          <class name="com.herokuapp.theinternet.ActionsDemoTest1">
+              
+          </class>   
+      </classes>
+  </test>
+</suite>
